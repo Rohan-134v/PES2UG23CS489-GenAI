@@ -20,19 +20,26 @@ This repository contains my coursework, assignments, and practical implementatio
     │   └── PromptEng.ipynb
     └── README.md
 
-## Contents Overview
+## Detailed File Descriptions
 
-### Unit 1
-This section deals with the foundational assignments and introductory implementations of GenAI architectures. 
-* **Assignments:** Core course assignments assessing early concepts.
-* **LangChain:** Initial explorations into building LLM applications using the LangChain framework.
-* **MOE & RAG:** Introductory notebooks demonstrating Mixture of Experts models and Retrieval-Augmented Generation systems.
+### Unit 1: Foundations of Generative AI
+This directory contains introductory implementations and foundational assignments.
 
-### Unit 2
-This section builds on the first unit with more advanced techniques and deeper explorations into prompting and framework utilization.
-* **Prompt Engineering:** Techniques for structuring and optimizing prompts to get better outputs from large language models.
-* **Advanced Prompting:** A deeper dive into complex prompting strategies.
-* **Advanced Frameworks:** Continued work on LangChain, MoE, and RAG architectures with more complex use cases.
+* **`Assignment1_PES2UG23CS489.ipynb`**: Initial assignment covering fundamental Generative AI concepts and basic API interactions.
+* **`Assignment2_PES2UG23CS489.ipynb`**: Second assignment focusing on practical implementations and extending early course topics.
+* **`LangChain.ipynb`**: Introduction to the LangChain framework, covering basic LLM initialization, prompts, and simple chains.
+* **`PES2UG23CS489_MOE.ipynb`**: Exploratory notebook demonstrating the architecture, gating networks, and routing mechanisms of Mixture of Experts (MoE).
+* **`PES2UG23CS489_RAG.ipynb`**: Implementation of a foundational Retrieval-Augmented Generation (RAG) pipeline to enhance LLM responses with external context.
+* **`l.txt`**: A sample text data file utilized for testing document loading, chunking, and retrieval mechanisms within the RAG implementations.
+
+### Unit 2: Advanced Techniques and Frameworks
+This directory builds upon the basics with more complex prompting strategies and advanced framework utilization.
+
+* **`PromptEng.ipynb`**: Practical exercises on foundational prompt engineering strategies to structure and guide LLM behavior effectively.
+* **`Advanced_prompt.ipynb`**: Deep dive into advanced prompting paradigms such as Few-Shot prompting, Chain-of-Thought (CoT), and role-playing architectures.
+* **`LangChain.ipynb`**: Advanced LangChain implementations, exploring complex retrieval chains, memory components, and potentially custom agents.
+* **`PES2UG23CS489_MOE.ipynb`**: Further exploration of Mixture of Experts, focusing on complex routing or applied use cases beyond the basics.
+* **`PES2UG23CS489_RAG.ipynb`**: Advanced RAG techniques, exploring optimized text chunking strategies, embedding models, and vector store integration.
 
 ## Prerequisites and API Keys
 
@@ -42,30 +49,30 @@ It is highly recommended to store these keys in a `.env` file in the root direct
 
 ### 1. Getting a Google Gemini API Key
 You need a Gemini API key to access Google's foundational models.
-1. Go to Google AI Studio: https://aistudio.google.com/app/apikey
-2. Sign in with your Google account.
-3. Click on the **Create API key** button.
-4. Copy the generated key.
-5. Add it to your `.env` file or environment variables as:
-   `GOOGLE_API_KEY="your_gemini_api_key_here"`
+1.  Go to Google AI Studio: https://aistudio.google.com/app/apikey
+2.  Sign in with your Google account.
+3.  Click on the **Create API key** button.
+4.  Copy the generated key.
+5.  Add it to your `.env` file or environment variables as:
+    `GOOGLE_API_KEY="your_gemini_api_key_here"`
 
 ### 2. Getting a LangChain (LangSmith) API Key
 LangSmith is used for tracing and debugging LangChain applications.
-1. Go to LangSmith: https://smith.langchain.com/
-2. Sign up or log in.
-3. Navigate to the **Settings** page (usually a gear icon in the bottom left).
-4. Go to the **API Keys** section and click **Create API Key**.
-5. Give your key a name, create it, and copy the string.
-6. Add it to your `.env` file or environment variables. You will also need to enable tracing:
-   `LANGCHAIN_API_KEY="your_langchain_api_key_here"`
-   `LANGCHAIN_TRACING_V2="true"`
+1.  Go to LangSmith: https://smith.langchain.com/
+2.  Sign up or log in.
+3.  Navigate to the **Settings** page (usually a gear icon in the bottom left).
+4.  Go to the **API Keys** section and click **Create API Key**.
+5.  Give your key a name, create it, and copy the string.
+6.  Add it to your `.env` file or environment variables. You will also need to enable tracing:
+    `LANGCHAIN_API_KEY="your_langchain_api_key_here"`
+    `LANGCHAIN_TRACING_V2="true"`
 
 ## Getting Started
 
-1. Clone this repository to your local machine:
-   `git clone https://github.com/Rohan-134v/PES2UG23CS489-GenAI.git`
-2. Navigate to the project directory:
-   `cd PES2UG23CS489-GenAI`
-3. Create a `.env` file in the root directory and add your API keys as shown in the section above.
-4. Install the required dependencies. (Ensure you have `langchain`, `langchain-google-genai`, `python-dotenv`, and `jupyter` installed).
-5. Launch Jupyter Notebook or Jupyter Lab and open the desired notebook to run the cells.
+1.  Clone this repository to your local machine:
+    `git clone https://github.com/Rohan-134v/PES2UG23CS489-GenAI.git`
+2.  Navigate to the project directory:
+    `cd PES2UG23CS489-GenAI`
+3.  Create a `.env` file in the root directory and add your API keys as shown in the section above.
+4.  Install the required dependencies. (Ensure you have `langchain`, `langchain-google-genai`, `python-dotenv`, and `jupyter` installed).
+5.  Launch Jupyter Notebook or Jupyter Lab and open the desired notebook to run the cells.
