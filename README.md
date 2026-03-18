@@ -30,7 +30,6 @@ This directory contains introductory implementations and foundational assignment
 * **`LangChain.ipynb`**: Introduction to the LangChain framework, covering basic LLM initialization, prompts, and simple chains.
 * **`PES2UG23CS489_MOE.ipynb`**: Exploratory notebook demonstrating the architecture, gating networks, and routing mechanisms of Mixture of Experts (MoE).
 * **`PES2UG23CS489_RAG.ipynb`**: Implementation of a foundational Retrieval-Augmented Generation (RAG) pipeline to enhance LLM responses with external context.
-* **`l.txt`**: A sample text data file utilized for testing document loading, chunking, and retrieval mechanisms within the RAG implementations.
 
 ### Unit 2: Advanced Techniques and Frameworks
 This directory builds upon the basics with more complex prompting strategies and advanced framework utilization.
